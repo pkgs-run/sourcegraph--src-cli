@@ -2,6 +2,6 @@
 # image that we use to run curl, git, and unzip against a Docker volume when
 # using the volume workspace.
 
-FROM alpine:3.15.0@sha256:21a3deaa0d32a8057914f36584b5288d2e5ecc984380bc0118285c70fa8c9300
+FROM alpine:3.18.2@sha256:82d1e9d7ed48a7523bdebc18cf6290bdb97b82302a8a9c27d4fe885949ea94d1
 
 RUN apk add --update git unzip
