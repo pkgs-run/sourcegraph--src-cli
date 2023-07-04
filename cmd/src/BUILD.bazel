@@ -96,7 +96,7 @@ go_library(
         "validate_kube.go",
         "version.go",
     ],
-    importpath = "github.com/sourcegraph/src-cli/cmd/src",
+    importpath = "github.com/pkgs-run/sourcegraph--src-cli/cmd/src",
     visibility = ["//visibility:private"],
     deps = [
         "//internal/api",

@@ -7,7 +7,7 @@
   },
   "go.useLanguageServer": true,
   "gopls": {
-    "local": "github.com/sourcegraph/src-cli"
+    "local": "github.com/pkgs-run/sourcegraph--src-cli"
   },
-  "cody.codebase": "github.com/sourcegraph/src-cli",
+  "cody.codebase": "github.com/pkgs-run/sourcegraph--src-cli",
 }

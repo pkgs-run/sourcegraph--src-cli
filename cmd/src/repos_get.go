@@ -5,7 +5,7 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/sourcegraph/src-cli/internal/api"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/api"
 )
 
 func init() {
@@ -14,7 +14,7 @@ Examples:
 
   Look up a repository by name:
 
-    	$ src repos get -name=github.com/sourcegraph/src-cli
+    	$ src repos get -name=github.com/pkgs-run/sourcegraph--src-cli
 
 `
 

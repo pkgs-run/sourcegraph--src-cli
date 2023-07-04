@@ -5,7 +5,7 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/sourcegraph/src-cli/internal/cmderrors"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/cmderrors"
 )
 
 func init() {

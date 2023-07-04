@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/sourcegraph/src-cli/internal/batches/graphql"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/graphql"
 )
 
 // TODO(mrnugget): Merge these two types (give them an "errorfmt" function,

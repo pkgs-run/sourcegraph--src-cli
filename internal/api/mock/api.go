@@ -6,7 +6,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/sourcegraph/src-cli/internal/api"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/api"
 	"github.com/stretchr/testify/mock"
 )
 

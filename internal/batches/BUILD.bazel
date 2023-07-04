@@ -7,7 +7,7 @@ go_library(
         "features.go",
         "license.go",
     ],
-    importpath = "github.com/sourcegraph/src-cli/internal/batches",
+    importpath = "github.com/pkgs-run/sourcegraph--src-cli/internal/batches",
     visibility = ["//:__subpackages__"],
     deps = [
         "//internal/batches/graphql",

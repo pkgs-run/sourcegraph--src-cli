@@ -9,7 +9,7 @@ go_library(
         "gzip.go",
         "nullable.go",
     ],
-    importpath = "github.com/sourcegraph/src-cli/internal/api",
+    importpath = "github.com/pkgs-run/sourcegraph--src-cli/internal/api",
     visibility = ["//:__subpackages__"],
     deps = [
         "//internal/version",

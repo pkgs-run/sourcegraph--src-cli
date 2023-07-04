@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "users",
     srcs = ["admin.go"],
-    importpath = "github.com/sourcegraph/src-cli/internal/users",
+    importpath = "github.com/pkgs-run/sourcegraph--src-cli/internal/users",
     visibility = ["//:__subpackages__"],
     deps = [
         "//internal/lazyregexp",

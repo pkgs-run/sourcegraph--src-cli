@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/sourcegraph/src-cli/internal/api"
-	"github.com/sourcegraph/src-cli/internal/validate"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/api"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/validate"
 
 	"github.com/sourcegraph/sourcegraph/lib/errors"
 )

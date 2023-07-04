@@ -3,7 +3,7 @@ package kube
 import (
 	"context"
 
-	"github.com/sourcegraph/src-cli/internal/validate"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/validate"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

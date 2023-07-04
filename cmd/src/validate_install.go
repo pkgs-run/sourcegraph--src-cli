@@ -10,8 +10,8 @@ import (
 
 	"github.com/mattn/go-isatty"
 
-	"github.com/sourcegraph/src-cli/internal/api"
-	"github.com/sourcegraph/src-cli/internal/validate/install"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/api"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/validate/install"
 
 	"github.com/sourcegraph/sourcegraph/lib/errors"
 )

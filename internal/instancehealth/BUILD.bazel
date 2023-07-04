@@ -6,7 +6,7 @@ go_library(
         "checks.go",
         "summary.go",
     ],
-    importpath = "github.com/sourcegraph/src-cli/internal/instancehealth",
+    importpath = "github.com/pkgs-run/sourcegraph--src-cli/internal/instancehealth",
     visibility = ["//:__subpackages__"],
     deps = [
         "//internal/api",

@@ -3,7 +3,7 @@ package graphql
 import (
 	"sort"
 
-	"github.com/sourcegraph/src-cli/internal/batches/util"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/util"
 )
 
 const RepositoryFieldsFragment = `

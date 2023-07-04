@@ -9,7 +9,7 @@ import (
 	"github.com/sourcegraph/sourcegraph/lib/batches/execution"
 	"github.com/sourcegraph/sourcegraph/lib/batches/execution/cache"
 
-	"github.com/sourcegraph/src-cli/internal/batches/log"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/log"
 )
 
 type taskExecutor interface {

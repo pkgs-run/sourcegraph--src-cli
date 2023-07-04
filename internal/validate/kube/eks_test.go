@@ -7,7 +7,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/eks"
 	"github.com/aws/aws-sdk-go-v2/service/iam"
 	iamTypes "github.com/aws/aws-sdk-go-v2/service/iam/types"
-	"github.com/sourcegraph/src-cli/internal/validate"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/validate"
 	corev1 "k8s.io/api/core/v1"
 )
 

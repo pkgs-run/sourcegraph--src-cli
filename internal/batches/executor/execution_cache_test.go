@@ -15,7 +15,7 @@ import (
 
 var cacheRepo1 = batches.Repository{
 	ID:          "src-cli",
-	Name:        "github.com/sourcegraph/src-cli",
+	Name:        "github.com/pkgs-run/sourcegraph--src-cli",
 	BaseRef:     "refs/heads/main",
 	BaseRev:     "d34db33f",
 	FileMatches: []string{"README.md", "main.go"},

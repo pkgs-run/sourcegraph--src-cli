@@ -7,7 +7,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/sourcegraph/src-cli/internal/api"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/api"
 )
 
 // Opts contains the search options supported by Search.

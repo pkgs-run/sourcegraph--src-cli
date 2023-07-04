@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/sourcegraph/src-cli/internal/exec"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/exec"
 
 	"github.com/sourcegraph/sourcegraph/lib/errors"
 )

@@ -24,11 +24,11 @@ import (
 	"github.com/sourcegraph/sourcegraph/lib/batches/git"
 	"github.com/sourcegraph/sourcegraph/lib/batches/template"
 
-	"github.com/sourcegraph/src-cli/internal/api"
-	"github.com/sourcegraph/src-cli/internal/batches/docker"
-	"github.com/sourcegraph/src-cli/internal/batches/mock"
-	"github.com/sourcegraph/src-cli/internal/batches/repozip"
-	"github.com/sourcegraph/src-cli/internal/batches/workspace"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/api"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/docker"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/mock"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/repozip"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/workspace"
 )
 
 func TestExecutor_Integration(t *testing.T) {
@@ -150,7 +150,7 @@ func TestExecutor_Integration(t *testing.T) {
 				{Repository: testRepo1},
 			},
 			executorTimeout:     100 * time.Millisecond,
-			wantErrInclude:      "execution in github.com/sourcegraph/src-cli failed: Timeout reached. Execution took longer than 100ms.",
+			wantErrInclude:      "execution in github.com/pkgs-run/sourcegraph--src-cli failed: Timeout reached. Execution took longer than 100ms.",
 			wantFinishedWithErr: 1,
 		},
 		{

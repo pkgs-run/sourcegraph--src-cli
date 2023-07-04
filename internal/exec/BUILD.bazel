@@ -6,6 +6,6 @@ go_library(
         "exec.go",
         "middleware.go",
     ],
-    importpath = "github.com/sourcegraph/src-cli/internal/exec",
+    importpath = "github.com/pkgs-run/sourcegraph--src-cli/internal/exec",
     visibility = ["//:__subpackages__"],
 )

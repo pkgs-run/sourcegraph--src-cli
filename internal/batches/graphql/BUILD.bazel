@@ -6,7 +6,7 @@ go_library(
         "batches.go",
         "repository.go",
     ],
-    importpath = "github.com/sourcegraph/src-cli/internal/batches/graphql",
+    importpath = "github.com/pkgs-run/sourcegraph--src-cli/internal/batches/graphql",
     visibility = ["//:__subpackages__"],
     deps = ["//internal/batches/util"],
 )

@@ -11,7 +11,7 @@ import (
 	"github.com/sourcegraph/sourcegraph/lib/output"
 	"gopkg.in/yaml.v3"
 
-	"github.com/sourcegraph/src-cli/internal/pgdump"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/pgdump"
 )
 
 func init() {

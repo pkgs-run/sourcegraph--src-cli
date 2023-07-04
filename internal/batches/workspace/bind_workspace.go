@@ -13,9 +13,9 @@ import (
 	batcheslib "github.com/sourcegraph/sourcegraph/lib/batches"
 	"github.com/sourcegraph/sourcegraph/lib/errors"
 
-	"github.com/sourcegraph/src-cli/internal/batches/graphql"
-	"github.com/sourcegraph/src-cli/internal/batches/repozip"
-	"github.com/sourcegraph/src-cli/internal/batches/util"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/graphql"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/repozip"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/util"
 )
 
 type dockerBindWorkspaceCreator struct {

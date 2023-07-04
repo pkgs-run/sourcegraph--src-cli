@@ -7,8 +7,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/sourcegraph/src-cli/internal/cmderrors"
-	"github.com/sourcegraph/src-cli/internal/servegit"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/cmderrors"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/servegit"
 )
 
 func init() {

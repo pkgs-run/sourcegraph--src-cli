@@ -13,8 +13,8 @@ import (
 
 	"github.com/grafana/regexp"
 
-	"github.com/sourcegraph/src-cli/internal/api"
-	"github.com/sourcegraph/src-cli/internal/streaming"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/api"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/streaming"
 )
 
 var labelRegexp = regexp.MustCompile(`(?:\[)(.*?)(?:])`)

@@ -17,7 +17,7 @@ import (
 	"github.com/kballard/go-shellquote"
 	"github.com/mattn/go-isatty"
 
-	"github.com/sourcegraph/src-cli/internal/version"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/version"
 )
 
 // Client instances provide methods to create API requests.
@@ -228,7 +228,7 @@ func (r *request) do(ctx context.Context, result interface{}) (bool, error) {
 	if resp.StatusCode != http.StatusOK {
 		if resp.StatusCode == http.StatusUnauthorized && isatty.IsCygwinTerminal(os.Stdout.Fd()) {
 			fmt.Println("You may need to specify or update your access token to use this endpoint.")
-			fmt.Println("See https://github.com/sourcegraph/src-cli#readme")
+			fmt.Println("See https://github.com/pkgs-run/sourcegraph--src-cli#readme")
 			fmt.Println("")
 		}
 		body, err := io.ReadAll(resp.Body)

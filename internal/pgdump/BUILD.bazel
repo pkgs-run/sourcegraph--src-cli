@@ -6,7 +6,7 @@ go_library(
         "extensions.go",
         "pgdump.go",
     ],
-    importpath = "github.com/sourcegraph/src-cli/internal/pgdump",
+    importpath = "github.com/pkgs-run/sourcegraph--src-cli/internal/pgdump",
     visibility = ["//:__subpackages__"],
     deps = ["@com_github_sourcegraph_sourcegraph_lib//errors"],
 )

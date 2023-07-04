@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/sourcegraph/src-cli/internal/scout/advise"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/scout/advise"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/client-go/util/homedir"

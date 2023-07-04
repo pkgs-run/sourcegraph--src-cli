@@ -18,8 +18,8 @@ import (
 	"github.com/sourcegraph/sourcegraph/lib/output"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/sourcegraph/src-cli/internal/api"
-	"github.com/sourcegraph/src-cli/internal/codeintel"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/api"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/codeintel"
 )
 
 var codeintelUploadFlags struct {

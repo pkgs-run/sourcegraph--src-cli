@@ -43,8 +43,8 @@ func TestInferRepo(t *testing.T) {
 
 func TestParseRemote(t *testing.T) {
 	testCases := map[string]string{
-		"git@github.com:sourcegraph/src-cli.git": "github.com/sourcegraph/src-cli",
-		"https://github.com/sourcegraph/src-cli": "github.com/sourcegraph/src-cli",
+		"git@github.com:sourcegraph/src-cli.git": "github.com/pkgs-run/sourcegraph--src-cli",
+		"https://github.com/pkgs-run/sourcegraph--src-cli": "github.com/pkgs-run/sourcegraph--src-cli",
 	}
 
 	for input, expectedOutput := range testCases {

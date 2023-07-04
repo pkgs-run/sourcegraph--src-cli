@@ -16,13 +16,13 @@ import (
 
 	batcheslib "github.com/sourcegraph/sourcegraph/lib/batches"
 
-	"github.com/sourcegraph/src-cli/internal/batches/docker"
-	"github.com/sourcegraph/src-cli/internal/batches/graphql"
-	"github.com/sourcegraph/src-cli/internal/batches/mock"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/docker"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/graphql"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/mock"
 )
 
 func TestService_ValidateChangesetSpecs(t *testing.T) {
-	repo1 := &graphql.Repository{ID: "repo-graphql-id-1", Name: "github.com/sourcegraph/src-cli"}
+	repo1 := &graphql.Repository{ID: "repo-graphql-id-1", Name: "github.com/pkgs-run/sourcegraph--src-cli"}
 	repo2 := &graphql.Repository{ID: "repo-graphql-id-2", Name: "github.com/sourcegraph/sourcegraph"}
 
 	tests := map[string]struct {

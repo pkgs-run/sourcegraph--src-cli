@@ -12,10 +12,10 @@ import (
 
 	batcheslib "github.com/sourcegraph/sourcegraph/lib/batches"
 
-	"github.com/sourcegraph/src-cli/internal/batches/docker"
-	"github.com/sourcegraph/src-cli/internal/batches/graphql"
-	"github.com/sourcegraph/src-cli/internal/batches/mock"
-	"github.com/sourcegraph/src-cli/internal/exec/expect"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/docker"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/graphql"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/mock"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/exec/expect"
 )
 
 // We may as well use the same volume ID in all the subtests.

@@ -10,7 +10,7 @@ go_library(
         "tty.go",
         "tui.go",
     ],
-    importpath = "github.com/sourcegraph/src-cli/internal/batches/ui",
+    importpath = "github.com/pkgs-run/sourcegraph--src-cli/internal/batches/ui",
     visibility = ["//:__subpackages__"],
     deps = [
         "//internal/api",

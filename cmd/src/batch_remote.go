@@ -10,8 +10,8 @@ import (
 	"github.com/sourcegraph/sourcegraph/lib/errors"
 	"github.com/sourcegraph/sourcegraph/lib/output"
 
-	"github.com/sourcegraph/src-cli/internal/batches/service"
-	"github.com/sourcegraph/src-cli/internal/batches/ui"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/service"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/ui"
 )
 
 func init() {

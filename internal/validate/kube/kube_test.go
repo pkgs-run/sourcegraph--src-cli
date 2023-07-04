@@ -6,7 +6,7 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/sourcegraph/src-cli/internal/validate"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/validate"
 )
 
 func TestValidatePod(t *testing.T) {

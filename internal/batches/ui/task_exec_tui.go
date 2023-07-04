@@ -10,7 +10,7 @@ import (
 
 	"github.com/sourcegraph/go-diff/diff"
 
-	"github.com/sourcegraph/src-cli/internal/batches/executor"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/executor"
 
 	batcheslib "github.com/sourcegraph/sourcegraph/lib/batches"
 	"github.com/sourcegraph/sourcegraph/lib/batches/git"

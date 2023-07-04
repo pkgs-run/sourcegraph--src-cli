@@ -10,8 +10,8 @@ import (
 	batcheslib "github.com/sourcegraph/sourcegraph/lib/batches"
 	"github.com/sourcegraph/sourcegraph/lib/output"
 
-	"github.com/sourcegraph/src-cli/internal/batches/executor"
-	"github.com/sourcegraph/src-cli/internal/batches/graphql"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/executor"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/graphql"
 )
 
 var progressPrinterDiff = []byte(`diff --git README.md README.md
@@ -60,7 +60,7 @@ func TestTaskExecTUI_Integration(t *testing.T) {
 
 	tasks := []*executor.Task{
 		{Repository: &graphql.Repository{Name: "github.com/sourcegraph/sourcegraph"}},
-		{Repository: &graphql.Repository{Name: "github.com/sourcegraph/src-cli"}},
+		{Repository: &graphql.Repository{Name: "github.com/pkgs-run/sourcegraph--src-cli"}},
 		{Repository: &graphql.Repository{Name: "github.com/sourcegraph/automation-testing"}},
 		{Repository: &graphql.Repository{Name: "github.com/sourcegraph/tiny-go-repo"}},
 	}
@@ -81,7 +81,7 @@ func TestTaskExecTUI_Integration(t *testing.T) {
 		"⠋  Executing... (0/4, 0 errored)                                              0%",
 		"│                                                                               ",
 		"├── github.com/sourcegraph/sourcegraph  ...                                   0s",
-		"├── github.com/sourcegraph/src-cli      ...                                   0s",
+		"├── github.com/pkgs-run/sourcegraph--src-cli      ...                                   0s",
 		"└── github.com/sourcegraph/automati...  ...                                   0s",
 		"",
 	})
@@ -95,7 +95,7 @@ func TestTaskExecTUI_Integration(t *testing.T) {
 		"⠋  Executing... (0/4, 0 errored)                                              0%",
 		"│                                                                               ",
 		"├── github.com/sourcegraph/sourcegraph  echo Hello World > README.md          0s",
-		"├── github.com/sourcegraph/src-cli      Downloading archive                   0s",
+		"├── github.com/pkgs-run/sourcegraph--src-cli      Downloading archive                   0s",
 		"└── github.com/sourcegraph/automati...  echo Hello World > README.md          0s",
 		"",
 	})
@@ -109,7 +109,7 @@ func TestTaskExecTUI_Integration(t *testing.T) {
 		"⠋  Executing... (0/4, 0 errored)                                              0%",
 		"│                                                                               ",
 		"├── github.com/sourcegraph/sourcegraph  gofmt                                 0s",
-		"├── github.com/sourcegraph/src-cli      echo Hello World > README.md          0s",
+		"├── github.com/pkgs-run/sourcegraph--src-cli      echo Hello World > README.md          0s",
 		"└── github.com/sourcegraph/automati...  echo Hello World > README.md          0s",
 		"",
 	})
@@ -122,7 +122,7 @@ func TestTaskExecTUI_Integration(t *testing.T) {
 		"⠋  Executing... (1/4, 0 errored)  ██████████▎                                25%",
 		"│                                                                               ",
 		"├── github.com/sourcegraph/sourcegraph  gofmt                                 0s",
-		"├── github.com/sourcegraph/src-cli      echo Hello World > README.md          0s",
+		"├── github.com/pkgs-run/sourcegraph--src-cli      echo Hello World > README.md          0s",
 		"└── github.com/sourcegraph/automati...  Done!                                 0s",
 		"",
 	})
@@ -135,7 +135,7 @@ func TestTaskExecTUI_Integration(t *testing.T) {
 		"⠋  Executing... (2/4, 0 errored)  ████████████████████▌                      50%",
 		"│                                                                               ",
 		"├── github.com/sourcegraph/sourcegraph  Done!                                 0s",
-		"├── github.com/sourcegraph/src-cli      echo Hello World > README.md          0s",
+		"├── github.com/pkgs-run/sourcegraph--src-cli      echo Hello World > README.md          0s",
 		"└── github.com/sourcegraph/automati...  Done!                                 0s",
 		"",
 	})
@@ -173,7 +173,7 @@ func TestTaskExecTUI_Integration(t *testing.T) {
 		"⠋  Executing... (2/4, 0 errored)  ████████████████████▌                      50%",
 		"│                                                                               ",
 		"├── github.com/sourcegraph/sourcegraph  Done!                                 0s",
-		"├── github.com/sourcegraph/src-cli      echo Hello World > README.md          0s",
+		"├── github.com/pkgs-run/sourcegraph--src-cli      echo Hello World > README.md          0s",
 		"└── github.com/sourcegraph/automati...  Done!                                 0s",
 		"",
 	})
@@ -193,7 +193,7 @@ func TestTaskExecTUI_Integration(t *testing.T) {
 		"⠋  Executing... (2/4, 0 errored)  ████████████████████▌                      50%",
 		"│                                                                               ",
 		"├── github.com/sourcegraph/tiny-go-...  rm -rf ~/.horse-ascii-art             0s",
-		"├── github.com/sourcegraph/src-cli      echo Hello World > README.md          0s",
+		"├── github.com/pkgs-run/sourcegraph--src-cli      echo Hello World > README.md          0s",
 		"└── github.com/sourcegraph/automati...  Done!                                 0s",
 		"",
 	})
@@ -219,7 +219,7 @@ func TestProgressUpdateAfterComplete(t *testing.T) {
 
 	tasks := []*executor.Task{
 		{Repository: &graphql.Repository{Name: "github.com/sourcegraph/sourcegraph"}},
-		{Repository: &graphql.Repository{Name: "github.com/sourcegraph/src-cli"}},
+		{Repository: &graphql.Repository{Name: "github.com/pkgs-run/sourcegraph--src-cli"}},
 	}
 
 	printer := newTaskExecTUI(out, true, 2)
@@ -241,7 +241,7 @@ func TestProgressUpdateAfterComplete(t *testing.T) {
 		"⠋  Executing... (0/2, 0 errored)                                              0%",
 		"│                                                                               ",
 		"├── github.com/sourcegraph/sourcegraph  echo Hello World > README.md          0s",
-		"└── github.com/sourcegraph/src-cli      Downloading archive                   0s",
+		"└── github.com/pkgs-run/sourcegraph--src-cli      Downloading archive                   0s",
 		"",
 	})
 
@@ -258,7 +258,7 @@ func TestProgressUpdateAfterComplete(t *testing.T) {
 		"✅ Executing... (0/2, 0 errored)  ████████████████████████████████████████  100%",
 		"│                                                                               ",
 		"├── github.com/sourcegraph/sourcegraph  exit 42                               0s",
-		"└── github.com/sourcegraph/src-cli      Downloading archive                   0s",
+		"└── github.com/pkgs-run/sourcegraph--src-cli      Downloading archive                   0s",
 		"",
 	})
 }

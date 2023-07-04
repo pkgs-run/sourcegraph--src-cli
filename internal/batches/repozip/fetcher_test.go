@@ -15,14 +15,14 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"github.com/sourcegraph/src-cli/internal/api"
-	"github.com/sourcegraph/src-cli/internal/batches/mock"
-	"github.com/sourcegraph/src-cli/internal/batches/util"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/api"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/mock"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/util"
 )
 
 func TestArchive_Ensure(t *testing.T) {
 	repo := RepoRevision{
-		RepoName: "github.com/sourcegraph/src-cli",
+		RepoName: "github.com/pkgs-run/sourcegraph--src-cli",
 		Commit:   "d34db33f",
 	}
 
@@ -179,7 +179,7 @@ func TestArchive_Ensure(t *testing.T) {
 	t.Run("non-default branch", func(t *testing.T) {
 		otherBranchOID := "f00b4r"
 		repo := RepoRevision{
-			RepoName: "github.com/sourcegraph/src-cli",
+			RepoName: "github.com/pkgs-run/sourcegraph--src-cli",
 			Commit:   otherBranchOID,
 		}
 

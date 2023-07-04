@@ -83,9 +83,9 @@ type ValidationSpec struct {
 func DefaultConfig() *ValidationSpec {
 	return &ValidationSpec{
 		SearchQuery: []string{
-			"repo:^github.com/sourcegraph/src-cli$ config",
-			"repo:^github.com/sourcegraph/src-cli$@4.0.0 config",
-			"repo:^github.com/sourcegraph/src-cli$ type:symbol config",
+			"repo:^github.com/pkgs-run/sourcegraph--src-cli$ config",
+			"repo:^github.com/pkgs-run/sourcegraph--src-cli$@4.0.0 config",
+			"repo:^github.com/pkgs-run/sourcegraph--src-cli$ type:symbol config",
 		},
 		ExternalService: ExternalService{
 			Kind:        "GITHUB",

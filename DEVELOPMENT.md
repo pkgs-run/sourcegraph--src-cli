@@ -57,9 +57,9 @@ We adhere to the [general Sourcegraph principles for testing](https://docs.sourc
 ## Releasing
 
 1.  Find the latest version (either via the releases tab on GitHub or via git tags) to determine which version you are releasing.
-2.  (optional) If this is a non-patch release, update the changelog. Add a new section `## $MAJOR.MINOR` to [`CHANGELOG.md`](https://github.com/sourcegraph/src-cli/blob/main/CHANGELOG.md#unreleased) immediately under `## Unreleased changes`. Add new empty `Added`, `Changed`, `Fixed`, and `Removed` sections under `## Unreleased changes`. Open a pull request with the new changelog. Get the pull request merged before completing the next step.
+2.  (optional) If this is a non-patch release, update the changelog. Add a new section `## $MAJOR.MINOR` to [`CHANGELOG.md`](https://github.com/pkgs-run/sourcegraph--src-cli/blob/main/CHANGELOG.md#unreleased) immediately under `## Unreleased changes`. Add new empty `Added`, `Changed`, `Fixed`, and `Removed` sections under `## Unreleased changes`. Open a pull request with the new changelog. Get the pull request merged before completing the next step.
 3.  `VERSION=9.9.9 ./release.sh` (replace `9.9.9` with the version you are releasing)
-4.  GitHub will automatically perform the release via the [Build and Release action](https://github.com/sourcegraph/src-cli/actions?query=workflow%3ABuild+and+Release). Once it has finished, **you need to confirm**:
+4.  GitHub will automatically perform the release via the [Build and Release action](https://github.com/pkgs-run/sourcegraph--src-cli/actions?query=workflow%3ABuild+and+Release). Once it has finished, **you need to confirm**:
     1. The brew formula shows the correct version.
        ```shell
         brew info sourcegraph/src-cli/src-cli
@@ -68,7 +68,7 @@ We adhere to the [general Sourcegraph principles for testing](https://docs.sourc
         ```shell
         npm show @sourcegraph/src version
        ```
-    3. The [releases section of the repo sidebar](https://github.com/sourcegraph/src-cli) shows the correct version.
+    3. The [releases section of the repo sidebar](https://github.com/pkgs-run/sourcegraph--src-cli) shows the correct version.
 5.  Make the necessary updates to the main Sourcegraph repo:
     1. Update the `MinimumVersion` constant in the [src-cli package](https://github.com/sourcegraph/sourcegraph/tree/main/internal/src-cli/consts.go).
     2. Update the reference documentation by running `go generate ./doc/cli/references`.

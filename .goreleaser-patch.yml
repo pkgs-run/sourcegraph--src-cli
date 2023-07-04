@@ -17,7 +17,7 @@ builds:
   main: ./cmd/src/
   binary: src
   ldflags:
-    - -X github.com/sourcegraph/src-cli/internal/version.BuildTag={{.Version}}
+    - -X github.com/pkgs-run/sourcegraph--src-cli/internal/version.BuildTag={{.Version}}
   goos:
     - linux
     - windows

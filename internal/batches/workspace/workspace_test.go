@@ -7,8 +7,8 @@ import (
 
 	"github.com/sourcegraph/sourcegraph/lib/errors"
 
-	"github.com/sourcegraph/src-cli/internal/batches/docker"
-	"github.com/sourcegraph/src-cli/internal/batches/mock"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/docker"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/mock"
 )
 
 func TestBestWorkspaceCreator(t *testing.T) {

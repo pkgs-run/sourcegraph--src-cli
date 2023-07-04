@@ -1,4 +1,4 @@
-# [Sourcegraph](https://sourcegraph.com) CLI [![Build Status](https://github.com/sourcegraph/src-cli/workflows/Go%20CI/badge.svg)](https://github.com/sourcegraph/src-cli/actions?query=workflow%3A%22Go+CI%22) [![Go Report Card](https://goreportcard.com/badge/sourcegraph/src-cli)](https://goreportcard.com/report/sourcegraph/src-cli)
+# [Sourcegraph](https://sourcegraph.com) CLI [![Build Status](https://github.com/pkgs-run/sourcegraph--src-cli/workflows/Go%20CI/badge.svg)](https://github.com/pkgs-run/sourcegraph--src-cli/actions?query=workflow%3A%22Go+CI%22) [![Go Report Card](https://goreportcard.com/badge/sourcegraph/src-cli)](https://goreportcard.com/report/sourcegraph/src-cli)
 
 <img src="https://user-images.githubusercontent.com/3173176/43567326-3db5f31c-95e6-11e8-9e74-4c04079c01b0.png" width=500 align=right>
 
@@ -11,11 +11,11 @@
 - **Manage & administrate** repositories, users, and more
 - **Easily convert src-CLI commands to equivalent curl commands**, just add --get-curl!
 
-**Note:** Using Sourcegraph 3.12 or earlier? [See the older README](https://github.com/sourcegraph/src-cli/tree/3.11.2).
+**Note:** Using Sourcegraph 3.12 or earlier? [See the older README](https://github.com/pkgs-run/sourcegraph--src-cli/tree/3.11.2).
 
 ## Installation
 
-Binary downloads are available on the [releases tab](https://github.com/sourcegraph/src-cli/releases), and through Sourcegraph.com. _If the latest version does not work for you,_ consider using the version compatible with your Sourcegraph instance instead.
+Binary downloads are available on the [releases tab](https://github.com/pkgs-run/sourcegraph--src-cli/releases), and through Sourcegraph.com. _If the latest version does not work for you,_ consider using the version compatible with your Sourcegraph instance instead.
 
 ### Installation: Mac OS
 

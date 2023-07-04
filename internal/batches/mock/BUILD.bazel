@@ -9,7 +9,7 @@ go_library(
         "logger.go",
         "repo_archive.go",
     ],
-    importpath = "github.com/sourcegraph/src-cli/internal/batches/mock",
+    importpath = "github.com/pkgs-run/sourcegraph--src-cli/internal/batches/mock",
     visibility = ["//:__subpackages__"],
     deps = [
         "//internal/batches/docker",

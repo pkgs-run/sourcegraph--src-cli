@@ -8,9 +8,9 @@ import (
 	"github.com/charmbracelet/bubbles/table"
 	"github.com/charmbracelet/lipgloss"
 	"github.com/sourcegraph/sourcegraph/lib/errors"
-	"github.com/sourcegraph/src-cli/internal/scout"
-	"github.com/sourcegraph/src-cli/internal/scout/kube"
-	"github.com/sourcegraph/src-cli/internal/scout/style"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/scout"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/scout/kube"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/scout/style"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 )

@@ -11,12 +11,12 @@ import (
 	"github.com/sourcegraph/sourcegraph/lib/errors"
 	"github.com/sourcegraph/sourcegraph/lib/output"
 
-	"github.com/sourcegraph/src-cli/internal/api"
-	"github.com/sourcegraph/src-cli/internal/batches"
-	"github.com/sourcegraph/src-cli/internal/batches/executor"
-	"github.com/sourcegraph/src-cli/internal/batches/graphql"
-	"github.com/sourcegraph/src-cli/internal/batches/workspace"
-	"github.com/sourcegraph/src-cli/internal/cmderrors"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/api"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/executor"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/graphql"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/workspace"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/cmderrors"
 )
 
 var (

@@ -30,7 +30,7 @@ if (!platformName || !archName) {
 }
 
 const version = packageJSON.version;
-const assetURL = `https://github.com/sourcegraph/src-cli/releases/download/${version}/src-cli_${version}_${platformName}_${archName}.tar.gz`;
+const assetURL = `https://github.com/pkgs-run/sourcegraph--src-cli/releases/download/${version}/src-cli_${version}_${platformName}_${archName}.tar.gz`;
 
 // Remove previously-downloaded files.
 const executableName = process.platform === "win32" ? "src.exe" : "src";

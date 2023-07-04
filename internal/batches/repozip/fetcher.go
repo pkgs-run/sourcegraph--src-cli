@@ -13,7 +13,7 @@ import (
 
 	"github.com/sourcegraph/sourcegraph/lib/errors"
 
-	"github.com/sourcegraph/src-cli/internal/batches/util"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/util"
 )
 
 type RepoRevision struct {

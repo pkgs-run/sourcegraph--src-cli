@@ -7,7 +7,7 @@ go_library(
         "remote.go",
         "service.go",
     ],
-    importpath = "github.com/sourcegraph/src-cli/internal/batches/service",
+    importpath = "github.com/pkgs-run/sourcegraph--src-cli/internal/batches/service",
     visibility = ["//:__subpackages__"],
     deps = [
         "//internal/api",

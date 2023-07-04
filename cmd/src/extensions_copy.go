@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/sourcegraph/src-cli/internal/api"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/api"
 )
 
 func withCfg(new *config, f func()) {

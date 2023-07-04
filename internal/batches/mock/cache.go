@@ -3,7 +3,7 @@ package mock
 import (
 	"context"
 
-	"github.com/sourcegraph/src-cli/internal/batches/docker"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/docker"
 )
 
 type ImageCache struct {

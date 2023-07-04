@@ -17,9 +17,9 @@ import (
 	"github.com/sourcegraph/sourcegraph/lib/batches/git"
 	"github.com/sourcegraph/sourcegraph/lib/batches/template"
 
-	"github.com/sourcegraph/src-cli/internal/batches/graphql"
-	"github.com/sourcegraph/src-cli/internal/batches/mock"
-	"github.com/sourcegraph/src-cli/internal/batches/util"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/graphql"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/mock"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/util"
 )
 
 func TestCoordinator_Execute(t *testing.T) {
@@ -167,7 +167,7 @@ func TestCoordinator_Execute(t *testing.T) {
 		deleted_files=[deleted.txt]
 		renamed_files=[renamed.txt]
 
-		repository_name=github.com/sourcegraph/src-cli
+		repository_name=github.com/pkgs-run/sourcegraph--src-cli
 
 		batch_change_name=my-batch-change
 		batch_change_description=the description`

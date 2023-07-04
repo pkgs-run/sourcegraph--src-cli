@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "mock",
     srcs = ["api.go"],
-    importpath = "github.com/sourcegraph/src-cli/internal/api/mock",
+    importpath = "github.com/pkgs-run/sourcegraph--src-cli/internal/api/mock",
     visibility = ["//:__subpackages__"],
     deps = [
         "//internal/api",

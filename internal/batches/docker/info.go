@@ -7,7 +7,7 @@ import (
 
 	"github.com/sourcegraph/sourcegraph/lib/errors"
 
-	"github.com/sourcegraph/src-cli/internal/exec"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/exec"
 )
 
 // CurrentContext returns the name of the current Docker context (not to be

@@ -7,7 +7,7 @@ import (
 
 	"github.com/sourcegraph/sourcegraph/lib/errors"
 
-	"github.com/sourcegraph/src-cli/internal/api"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/api"
 )
 
 var configCommands commander
@@ -135,7 +135,7 @@ query ViewerUserID {
 	}
 
 	if result.CurrentUser == nil || result.CurrentUser.ID == "" {
-		return "", errors.New("unable to determine current user ID (see https://github.com/sourcegraph/src-cli#authentication)")
+		return "", errors.New("unable to determine current user ID (see https://github.com/pkgs-run/sourcegraph--src-cli#authentication)")
 	}
 	return result.CurrentUser.ID, nil
 }

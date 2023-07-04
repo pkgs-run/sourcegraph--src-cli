@@ -10,7 +10,7 @@ go_library(
         "task.go",
         "ui.go",
     ],
-    importpath = "github.com/sourcegraph/src-cli/internal/batches/executor",
+    importpath = "github.com/pkgs-run/sourcegraph--src-cli/internal/batches/executor",
     visibility = ["//:__subpackages__"],
     deps = [
         "//internal/batches/docker",

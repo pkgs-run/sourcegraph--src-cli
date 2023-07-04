@@ -5,7 +5,7 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/sourcegraph/src-cli/internal/api"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/api"
 )
 
 func init() {

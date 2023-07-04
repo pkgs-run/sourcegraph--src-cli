@@ -18,10 +18,10 @@ import (
 	"github.com/sourcegraph/sourcegraph/lib/batches/template"
 	"github.com/sourcegraph/sourcegraph/lib/errors"
 
-	"github.com/sourcegraph/src-cli/internal/batches/log"
-	"github.com/sourcegraph/src-cli/internal/batches/repozip"
-	"github.com/sourcegraph/src-cli/internal/batches/util"
-	"github.com/sourcegraph/src-cli/internal/batches/workspace"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/log"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/repozip"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/util"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/workspace"
 
 	"github.com/sourcegraph/sourcegraph/lib/process"
 

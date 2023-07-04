@@ -12,11 +12,11 @@ import (
 
 	"github.com/sourcegraph/sourcegraph/lib/errors"
 
-	"github.com/sourcegraph/src-cli/internal/api"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/api"
 )
 
 const usageText = `src is a tool that provides access to Sourcegraph instances.
-For more information, see https://github.com/sourcegraph/src-cli
+For more information, see https://github.com/pkgs-run/sourcegraph--src-cli
 
 Usage:
 

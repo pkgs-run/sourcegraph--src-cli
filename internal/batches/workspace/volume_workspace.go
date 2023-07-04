@@ -14,11 +14,11 @@ import (
 
 	batcheslib "github.com/sourcegraph/sourcegraph/lib/batches"
 
-	"github.com/sourcegraph/src-cli/internal/batches/docker"
-	"github.com/sourcegraph/src-cli/internal/batches/graphql"
-	"github.com/sourcegraph/src-cli/internal/batches/repozip"
-	"github.com/sourcegraph/src-cli/internal/exec"
-	"github.com/sourcegraph/src-cli/internal/version"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/docker"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/graphql"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/repozip"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/exec"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/version"
 )
 
 type imageEnsurer func(ctx context.Context, image string) (docker.Image, error)

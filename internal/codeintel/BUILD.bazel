@@ -6,7 +6,7 @@ go_library(
         "gitutil.go",
         "sanitation.go",
     ],
-    importpath = "github.com/sourcegraph/src-cli/internal/codeintel",
+    importpath = "github.com/pkgs-run/sourcegraph--src-cli/internal/codeintel",
     visibility = ["//:__subpackages__"],
 )
 

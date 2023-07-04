@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	mockclient "github.com/sourcegraph/src-cli/internal/api/mock"
-	"github.com/sourcegraph/src-cli/internal/batches/service"
+	mockclient "github.com/pkgs-run/sourcegraph--src-cli/internal/api/mock"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/service"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"

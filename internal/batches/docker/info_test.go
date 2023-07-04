@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sourcegraph/src-cli/internal/exec/expect"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/exec/expect"
 )
 
 func Test_CurrentContext(t *testing.T) {

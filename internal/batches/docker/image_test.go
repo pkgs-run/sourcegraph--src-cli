@@ -8,7 +8,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sourcegraph/src-cli/internal/exec/expect"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/exec/expect"
 )
 
 func TestImage_Digest(t *testing.T) {

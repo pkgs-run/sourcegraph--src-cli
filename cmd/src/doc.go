@@ -13,7 +13,7 @@ import (
 	"github.com/sourcegraph/sourcegraph/lib/errors"
 	"github.com/sourcegraph/sourcegraph/lib/output"
 
-	"github.com/sourcegraph/src-cli/internal/cmderrors"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/cmderrors"
 )
 
 func init() {

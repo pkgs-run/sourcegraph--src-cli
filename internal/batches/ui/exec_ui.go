@@ -1,10 +1,10 @@
 package ui
 
 import (
-	"github.com/sourcegraph/src-cli/internal/batches"
-	"github.com/sourcegraph/src-cli/internal/batches/executor"
-	"github.com/sourcegraph/src-cli/internal/batches/graphql"
-	"github.com/sourcegraph/src-cli/internal/batches/workspace"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/executor"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/graphql"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/workspace"
 )
 
 type ExecUI interface {

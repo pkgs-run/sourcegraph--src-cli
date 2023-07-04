@@ -1,4 +1,4 @@
-# gazelle:prefix github.com/sourcegraph/src-cli
+# gazelle:prefix github.com/pkgs-run/sourcegraph--src-cli
 # gazelle:build_file_name BUILD.bazel
 load("@bazel_gazelle//:def.bzl", "gazelle")
 

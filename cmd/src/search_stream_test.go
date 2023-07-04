@@ -11,8 +11,8 @@ import (
 
 	"github.com/hexops/autogold"
 
-	"github.com/sourcegraph/src-cli/internal/api"
-	"github.com/sourcegraph/src-cli/internal/streaming"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/api"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/streaming"
 )
 
 func mockStreamHandler(w http.ResponseWriter, _ *http.Request) {

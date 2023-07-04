@@ -11,7 +11,7 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/client-go/util/homedir"
 
-	"github.com/sourcegraph/src-cli/internal/scout/resource"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/scout/resource"
 )
 
 func init() {

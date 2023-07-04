@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/sourcegraph/src-cli/internal/users"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/users"
 
 	"github.com/sourcegraph/sourcegraph/lib/errors"
 )

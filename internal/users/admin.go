@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	jsoniter "github.com/json-iterator/go"
-	"github.com/sourcegraph/src-cli/internal/lazyregexp"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/lazyregexp"
 
 	"github.com/sourcegraph/sourcegraph/lib/errors"
 )

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/sourcegraph/src-cli/internal/api"
-	"github.com/sourcegraph/src-cli/internal/cmderrors"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/api"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/cmderrors"
 )
 
 func init() {

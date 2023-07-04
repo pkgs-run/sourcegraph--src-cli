@@ -18,7 +18,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/ec2/types"
 	"github.com/aws/aws-sdk-go-v2/service/eks"
 	"github.com/aws/aws-sdk-go-v2/service/iam"
-	"github.com/sourcegraph/src-cli/internal/validate"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/validate"
 
 	"github.com/sourcegraph/sourcegraph/lib/errors"
 )

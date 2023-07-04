@@ -11,7 +11,7 @@ import (
 
 	"github.com/charmbracelet/lipgloss"
 	"github.com/sourcegraph/sourcegraph/lib/errors"
-	"github.com/sourcegraph/src-cli/internal/scout"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/scout"
 	"gopkg.in/inf.v0"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"

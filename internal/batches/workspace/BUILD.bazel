@@ -9,7 +9,7 @@ go_library(
         "volume_workspace.go",
         "workspace.go",
     ],
-    importpath = "github.com/sourcegraph/src-cli/internal/batches/workspace",
+    importpath = "github.com/pkgs-run/sourcegraph--src-cli/internal/batches/workspace",
     visibility = ["//:__subpackages__"],
     deps = [
         "//internal/batches/docker",

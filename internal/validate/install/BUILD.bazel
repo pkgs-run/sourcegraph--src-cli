@@ -8,7 +8,7 @@ go_library(
         "insight.go",
         "install.go",
     ],
-    importpath = "github.com/sourcegraph/src-cli/internal/validate/install",
+    importpath = "github.com/pkgs-run/sourcegraph--src-cli/internal/validate/install",
     visibility = ["//:__subpackages__"],
     deps = [
         "//internal/api",

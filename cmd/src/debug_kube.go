@@ -16,7 +16,7 @@ import (
 	"golang.org/x/sync/errgroup"
 	"golang.org/x/sync/semaphore"
 
-	"github.com/sourcegraph/src-cli/internal/exec"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/exec"
 )
 
 func init() {

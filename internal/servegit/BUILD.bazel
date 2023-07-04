@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "servegit",
     srcs = ["serve.go"],
-    importpath = "github.com/sourcegraph/src-cli/internal/servegit",
+    importpath = "github.com/pkgs-run/sourcegraph--src-cli/internal/servegit",
     visibility = ["//:__subpackages__"],
     deps = [
         "@com_github_sourcegraph_sourcegraph_lib//errors",

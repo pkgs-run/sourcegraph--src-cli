@@ -4,12 +4,12 @@ import (
 	batcheslib "github.com/sourcegraph/sourcegraph/lib/batches"
 	"github.com/sourcegraph/sourcegraph/lib/batches/overridable"
 
-	"github.com/sourcegraph/src-cli/internal/batches/graphql"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/graphql"
 )
 
 var testRepo1 = &graphql.Repository{
 	ID:            "src-cli",
-	Name:          "github.com/sourcegraph/src-cli",
+	Name:          "github.com/pkgs-run/sourcegraph--src-cli",
 	DefaultBranch: &graphql.Branch{Name: "main", Target: graphql.Target{OID: "d34db33f"}},
 	FileMatches: map[string]bool{
 		"README.md": true,

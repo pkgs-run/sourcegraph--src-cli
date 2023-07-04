@@ -1,7 +1,7 @@
 package usage
 
 import (
-	"github.com/sourcegraph/src-cli/internal/scout"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/scout"
 )
 
 type Option = func(config *scout.Config)

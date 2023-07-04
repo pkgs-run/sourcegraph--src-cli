@@ -27,7 +27,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/sourcegraph/sourcegraph/lib/errors"
 
-	"github.com/sourcegraph/src-cli/internal/exec"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/exec"
 )
 
 // envBehaviourFile is the environment variable used to define the behaviour

@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sourcegraph/src-cli/internal/scout"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/scout"
 )
 
 func TestCheckUsage(t *testing.T) {

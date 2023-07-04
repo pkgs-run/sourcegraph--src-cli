@@ -6,7 +6,7 @@ go_library(
         "fetcher.go",
         "noop.go",
     ],
-    importpath = "github.com/sourcegraph/src-cli/internal/batches/repozip",
+    importpath = "github.com/pkgs-run/sourcegraph--src-cli/internal/batches/repozip",
     visibility = ["//:__subpackages__"],
     deps = [
         "//internal/batches/util",

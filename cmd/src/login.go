@@ -8,8 +8,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/sourcegraph/src-cli/internal/api"
-	"github.com/sourcegraph/src-cli/internal/cmderrors"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/api"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/cmderrors"
 )
 
 func init() {
@@ -81,7 +81,7 @@ func loginCmd(ctx context.Context, cfg *config, client api.Client, endpointArg s
 
 	if cfg.ConfigFilePath != "" {
 		fmt.Fprintln(out)
-		fmt.Fprintf(out, "⚠️  Warning: Configuring src with a JSON file is deprecated. Please migrate to using the env vars SRC_ENDPOINT and SRC_ACCESS_TOKEN instead, and then remove %s. See https://github.com/sourcegraph/src-cli#readme for more information.\n", cfg.ConfigFilePath)
+		fmt.Fprintf(out, "⚠️  Warning: Configuring src with a JSON file is deprecated. Please migrate to using the env vars SRC_ENDPOINT and SRC_ACCESS_TOKEN instead, and then remove %s. See https://github.com/pkgs-run/sourcegraph--src-cli#readme for more information.\n", cfg.ConfigFilePath)
 	}
 
 	noToken := cfg.AccessToken == ""
@@ -110,7 +110,7 @@ func loginCmd(ctx context.Context, cfg *config, client api.Client, endpointArg s
 			printProblem(fmt.Sprintf("Error communicating with %s: %s", endpointArg, err))
 		}
 		fmt.Fprintln(out, createAccessTokenMessage)
-		fmt.Fprintln(out, "   (If you need to supply custom HTTP request headers, see information about SRC_HEADER_* and SRC_HEADERS env vars at https://github.com/sourcegraph/src-cli/blob/main/AUTH_PROXY.md.)")
+		fmt.Fprintln(out, "   (If you need to supply custom HTTP request headers, see information about SRC_HEADER_* and SRC_HEADERS env vars at https://github.com/pkgs-run/sourcegraph--src-cli/blob/main/AUTH_PROXY.md.)")
 		return cmderrors.ExitCode1
 	}
 

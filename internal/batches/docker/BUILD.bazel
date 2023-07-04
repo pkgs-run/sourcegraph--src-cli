@@ -9,7 +9,7 @@ go_library(
         "info.go",
         "version.go",
     ],
-    importpath = "github.com/sourcegraph/src-cli/internal/batches/docker",
+    importpath = "github.com/pkgs-run/sourcegraph--src-cli/internal/batches/docker",
     visibility = ["//:__subpackages__"],
     deps = [
         "//internal/exec",

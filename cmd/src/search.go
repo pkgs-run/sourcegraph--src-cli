@@ -18,9 +18,9 @@ import (
 	isatty "github.com/mattn/go-isatty"
 	"jaytaylor.com/html2text"
 
-	"github.com/sourcegraph/src-cli/internal/api"
-	"github.com/sourcegraph/src-cli/internal/cmderrors"
-	"github.com/sourcegraph/src-cli/internal/streaming"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/api"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/cmderrors"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/streaming"
 )
 
 var dateRegex = regexp.MustCompile(`(\w{4}-\w{2}-\w{2})`)

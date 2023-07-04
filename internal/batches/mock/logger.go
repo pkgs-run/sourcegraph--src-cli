@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/sourcegraph/src-cli/internal/batches/log"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/batches/log"
 )
 
 var _ log.TaskLogger = TaskNoOpLogger{}

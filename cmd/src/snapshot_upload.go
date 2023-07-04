@@ -15,7 +15,7 @@ import (
 	"github.com/sourcegraph/sourcegraph/lib/output"
 	"google.golang.org/api/option"
 
-	"github.com/sourcegraph/src-cli/internal/pgdump"
+	"github.com/pkgs-run/sourcegraph--src-cli/internal/pgdump"
 )
 
 const srcSnapshotDir = "./src-snapshot"
