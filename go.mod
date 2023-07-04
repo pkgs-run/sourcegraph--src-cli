@@ -1,4 +1,4 @@
-module github.com/sourcegraph/src-cli
+module github.com/pkgs-run/sourcegraph--src-cli
 
 go 1.18
 
